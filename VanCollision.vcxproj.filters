@@ -17,6 +17,9 @@
     <ClInclude Include="engine\olcPixelGameEngine.h">
       <Filter>engine</Filter>
     </ClInclude>
+    <ClInclude Include="source\pointHull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
