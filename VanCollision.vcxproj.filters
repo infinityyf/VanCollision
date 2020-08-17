@@ -12,6 +12,9 @@
     <Filter Include="engine">
       <UniqueIdentifier>{c877ca74-61f8-45f9-b996-fa5ba4075c21}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{59c55955-a7d9-4600-80c9-cbd41e7ab5ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="engine\olcPixelGameEngine.h">
@@ -20,10 +23,22 @@
     <ClInclude Include="source\pointHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="source\Shape\ShapeBase.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Shape\triangle.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shape\ShapeBase.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shape\Triangle.cpp">
+      <Filter>Shape</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
